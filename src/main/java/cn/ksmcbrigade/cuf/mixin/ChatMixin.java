@@ -25,4 +25,9 @@ public class ChatMixin {
     public double chatY(double constant){
         return constant + chatUpForge$get();
     }
+
+    @ModifyConstant(method = "addMessage(Lnet/minecraft/network/chat/Component;Lnet/minecraft/network/chat/MessageSignature;ILnet/minecraft/client/GuiMessageTag;Z)V",constant = @Constant(intValue = 100))
+    public int chatY(int constant){
+        return constant*2*2; // = 100 * 2 * 2 = 400
+    }
 }

@@ -11,6 +11,12 @@
     },
     "done": false
   },
+  "minecraft:recipes/misc/mojang_banner_pattern": {
+    "criteria": {
+      "has_enchanted_golden_apple": "2024-07-10 19:28:43 +0800"
+    },
+    "done": true
+  },
   "minecraft:story/shiny_gear": {
     "criteria": {
       "diamond_boots": "2024-07-10 19:28:47 +0800"
@@ -26,12 +32,6 @@
   "minecraft:husbandry/root": {
     "criteria": {
       "consumed_item": "2024-07-10 19:28:53 +0800"
-    },
-    "done": true
-  },
-  "minecraft:recipes/misc/mojang_banner_pattern": {
-    "criteria": {
-      "has_enchanted_golden_apple": "2024-07-10 19:28:43 +0800"
     },
     "done": true
   },
